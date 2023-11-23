@@ -1,0 +1,5 @@
+print("gfg")
+print('g', 'f', 'g')
+print('g', 'f', 'g', sep='*')
+print('gfg', end='#')
+print('welcome')

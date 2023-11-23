@@ -1,0 +1,8 @@
+# t = ('apple', 20, 5.9) 
+# l = list(t)
+# l.append(30)
+# t = tuple(l)
+# print(t)
+t = (10, 20, 10, 30, 40)
+print(t.count(10))
+print(t.index(30))
