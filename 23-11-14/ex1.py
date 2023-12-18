@@ -1,8 +1,9 @@
 class Student:
     college_name = "Amrita Vishwa Vidyapeetham"
-    def __init__(abc):
-        abc.name = input()
-        abc.roll = int(input())
+
+    def __init__(self):
+        self.name = input()
+        self.roll = int(input())
 
     def display(self):
         print(self.college_name, self.name, self.roll)
