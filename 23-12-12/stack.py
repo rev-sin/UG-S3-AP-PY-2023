@@ -21,9 +21,7 @@ class mystack():
         if self.isempty():
             print("stack is empty")
         else:
-            for i in range(self.max):
-                if self.s[i] is not None:
-                    print(self.s[i])
+            print(self.s)
 
 
 k = mystack(6)

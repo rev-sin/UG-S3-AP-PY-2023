@@ -3,9 +3,6 @@ class Point:
         self.a = a
         self.b = b
 
-    def __str__(self):
-        return self.a, self.b
-
     def __add__(self, other):
         temp = Point(0, 0)
         temp.a = self.a + other.a
